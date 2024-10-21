@@ -2,9 +2,9 @@ opgaver
 ================
 2024-10-21
 
-# Opvarmning
+## Opvarmning
 
-## lav en 20x4 dataframe på følgende måde:
+### Lav en 20x4 dataframe på følgende måde:
 
 - A indeholder tilfældige heltal mellem 10 og 100
 - B indeholder en streng som begynder med stort bogstav, derpå 3
@@ -14,8 +14,34 @@ opgaver
 - C indeholder tilfældige heltal mellem 10 og 100
 - D indeholder én af tre gyldige danske postnumre
 
-## Lav en dataframe vha tidy af frekvensen på postnumre og sorter med hyppigst forekommende øverst
+### Lav en dataframe vha tidy af frekvensen på postnumre og sorter med hyppigst forekommende øverst
 
-## lav et bar plot
+### Lav et bar plot vha ggplot
 
-## lav et Danmarkskort hvor zip-koden farves vha hyppighed <https://github.com/sebastianbarfort/mapDK>.
+### Lav et Danmarkskort hvor zip-koden farves vha hyppighed <https://github.com/sebastianbarfort/mapDK>.
+
+## Nye boliger - vha tidyverse
+
+### Indlæs filen <https://efif.sharepoint.com/:u:/s/cph/Lyngby/EaPp3giEjAVOvyI9LPX-az8BU-6LQfikPn52Mf1hMnZgOw?e=TIEWr1>
+
+- 1 lav en kolonne med postnumre ud fra “addr” (brug str_extract)
+  - a Lav en dataframe med de 10 hyppigst forekommende postnumre
+  - b Lav et DK-plot hvor man kan se de 10 hyppigst forekommende
+    postnumre
+- 2 lav en kolonne med postdistrikternes navne ud fra “addr”
+  - 1 lav først en kolonne med alt efter postnummeret og til slut
+  - 2 fjern derpå det du ikke skal bruge
+- 3 lav to kolonner med hhv vejnavn og vejnr fra addr
+  - 1 lav først en basiskolonne vha str_remove
+  - 2 Brug nu str_match med groups (!) til at hente tekst ud (hint:
+    str_match(vejtot,“^(.\*)-\d”)\[,2\])
+  - 3 Hent vejnummeret ud vha en lookbehind: (?\<=-)
+- 4 lav kolonner for kvm,grund,emærke og pris
+  - a Undersøg NA forekomster og vurder om de er tilfældige eller
+    skyldes data?
+- 5 Forbered en præsentation af datasættet baseret på ovenstående
+  undersøgelse og data-science-modellen
+  - a Dokumenter vigtig kode
+  - b Dokumenter datasættet
+    - 1 Variabel typer, relevante basisplot, outliers samt
+      relations-plot (pris ~ Emærke etc)
