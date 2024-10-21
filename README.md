@@ -11,8 +11,8 @@ Opgaver
   karakterer som skal indeholde en vokal et mellemrum, et decimaltal på
   2 decimaler mellem 1 og 10 og derpå strengen “Dollars.” Løs dette vha
   en funktion som kan skabe de 10 strenge
-- C indeholder tilfældige heltal mellem 10 og 100
-- D indeholder én af tre gyldige danske postnumre
+- C indeholder tilfældige heltal mellem 1 og 20
+- D hvor hver celle indeholder ét af tre gyldige danske postnumre
 
 ### Lav en dataframe vha tidy af frekvensen på postnumre og sorter med hyppigst forekommende øverst
 
