@@ -1,10 +1,10 @@
-opgaver
+Opgaver
 ================
 2024-10-21
 
 ## Opvarmning
 
-### Lav en 20x4 dataframe på følgende måde:
+### Lav en testdf 20x4 dataframe på følgende måde:
 
 - A indeholder tilfældige heltal mellem 10 og 100
 - B indeholder en streng som begynder med stort bogstav, derpå 3
@@ -20,7 +20,17 @@ opgaver
 
 ### Lav et Danmarkskort hvor zip-koden farves vha hyppighed <https://github.com/sebastianbarfort/mapDK>.
 
-## Nye boliger - vha tidyverse
+### Grupper på zip og beregn mean og sd på zip vha mutate (ikke summarise)
+
+### Subset testdf
+
+- a så den kun består af dem hvor A er større end 80 og C under 15
+- b så den kun består af dem hvor A er mindre end 60 og eller større end
+  90 og begynder med en vokal
+
+### Lav en kategorivariabel som deler A nogenlunde lige i tre grupper
+
+# Nye boliger - vha tidyverse
 
 ### Indlæs filen <https://efif.sharepoint.com/:u:/s/cph/Lyngby/EaPp3giEjAVOvyI9LPX-az8BU-6LQfikPn52Mf1hMnZgOw?e=TIEWr1>
 
